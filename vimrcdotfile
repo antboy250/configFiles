@@ -1,0 +1,8 @@
+set nocompatible
+set nu rnu
+set path+=**
+
+set wildmenu
+
+syntax enable
+filetype plugin on
