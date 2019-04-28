@@ -6,3 +6,19 @@ set wildmenu
 
 syntax enable
 filetype plugin on
+
+"create 'tags' file (may need to install ctags first)
+
+"!if [ $( ls -hltr | wc -l ) -lt 6 ]; then   ctags -R .; fi
+
+"NOW WE CAN
+" - use ^] to jump to tags under cursor
+"   use g^] for ambiguous tags
+"   Use ^t to jump back up the tag stack
+"
+"THINGS TO CONSIDER
+"   This doesnt help if you want visual list of tags
+"   "create 'tags' file (may need to install ctags first)
+"  command! MakeTags !ctags -R
+
+set tags=tags;
